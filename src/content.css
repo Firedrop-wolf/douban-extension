@@ -1,0 +1,41 @@
+/* src/content.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#douban-extension-root{
+  width: 400px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 2147483647;
+  background-color: white;
+  box-shadow: 0px 0px 5px #0000009e;
+}
+
+#douban-extension-root iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.douban-extension{
+  padding: 20px;
+}
+
+.douban-extension h1{
+  color: #000;
+}
+
+.hidden-status p {
+  display: inline;
+  padding: 0 18px 0 0;
+  padding-left: 10%;
+  font-size: 14px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
