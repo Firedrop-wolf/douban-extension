@@ -77,7 +77,7 @@ class Main extends React.Component {
           // Render Children
             return (
               <div className={'douban-extension'}>
-                <h1>豆瓣屏蔽插件</h1>
+                <h3>豆瓣屏蔽插件</h3>
                 <MutedWord
                   handleChange={this.handleChange}
                   handleEnter={this.handleEnter}

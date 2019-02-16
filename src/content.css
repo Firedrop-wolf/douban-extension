@@ -1,12 +1,8 @@
 /* src/content.css */
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+/* TODO: need to separate into css files for outside of frame and inside of it. */
 
-#douban-extension-root{
+#douban-extension-root {
   width: 400px;
   height: 100%;
   position: fixed;
@@ -23,11 +19,36 @@ body {
   border: none;
 }
 
-.douban-extension{
+/*
+ * Inside Content
+*/
+html,
+body,
+.frame-root,
+.frame-content,
+.douban-extension {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.douban-extension {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
-.douban-extension h1{
+.douban-extension h1 {
   color: #000;
 }
 
@@ -38,4 +59,41 @@ body {
   font-size: 14px;
   word-wrap: break-word;
   white-space: pre-wrap;
+}
+
+.muted-word__input {
+  margin: 0;
+  width: 242px;
+  height: 28px;
+  background: #fff;
+  text-align: left;
+  padding-left: 10px;
+  outline: none;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.muted-word__list {
+  padding-inline-start: 0;
+}
+
+.muted-word__word {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #e5e5e5;
+  list-style: none;
+
+  padding: 20px 0;
+}
+
+.muted-word__button {
+  color: #7094b7;
+  border: none;
+  cursor: pointer;
+}
+
+.muted-word__button:hover {
+  background-color: #7094b7;
+  color: #fff;
 }
