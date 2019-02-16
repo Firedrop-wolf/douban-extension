@@ -27,8 +27,9 @@ Follow steps to ramp up your development.
 2. Better UI for interaction
 3. Add Tests (I hate writing tests but they're important)
 4. Add Icon(so that it can be published to the store)
-5. Add Options Page
-6. Publish to Chrome Web Store
+5. Support i18n
+6. Add Options Page
+7. Publish to Chrome Web Store
 
 ## Disclaimer
 There is no warranty, expressed or implied, associated with this extension. Use at your own risk.
