@@ -1,53 +1,33 @@
 # douban-extension
-A Douban extension that helps you mute tweets based on your selected muted word list.
+这是一个可以根据您选择的屏蔽词列表屏蔽豆瓣广播的Chrome浏览器扩展应用。
 
-## Installation
-Before you start, make sure that you are using a Chrome browser. This is an extension currently only supporting Chrome browser.
+[English Version](https://github.com/lianliu/douban-extension/blob/master/README_EN.md)
 
-1. Go to `https://github.com/lianliu/douban-extension`.
-2. Click on a green button called 'Clone or download' on the right of the page, right below the overall summary section.
-3. Click on Download ZIP to your local machine and unzip it.
-4. Once step 3 is done, go to `chrome://extensions`, and turn on Developer mode.
-5. Click on `Load unpackaged` and point it the `build` folder.
-6. Now you should see the icon showing up on the menu bar.
-7. Go to `www.douban.com` and click on the icon.
-8. If you have any question regarding installation of this extension on your Chrome, you can file an issue at https://github.com/lianliu/douban-extension/issues, or find me at https://www.douban.com/people/John_316/. I'm more than happy to help.
- 
-## Development
-Follow steps to ramp up your development.
+# 安装
+在开始之前，请确保您使用的是Chrome浏览器。目前仅支持Chrome浏览器。
 
-1. `git clone https://github.com/lianliu/douban-extension.git && cd douban-extension`
-2. `yarn`
-3. Edit some code.
-4. `yarn build`
-5. Open your Chrome, go to `chrome://extensions`, and turn on Developer mode.
-6. Click on `Load unpackaged` and point it the `build` folder.
-7. Now you should see the icon showing up on the menu bar.
-8. Go to `www.douban.com` and click on the icon.
-9. Now you can see the UI. Enjoy!
+1. 转到https://github.com/lianliu/douban-extension。
+2. 单击页面右侧写着“Clone or download”的绿色按钮。
+3. 单击“Download ZIP”并解压缩。
+4. 完成第3步后，转到Chrome地址栏输入`chrome：// extensions`（并回车），然后开启`开发者模式`。
+5. 单击`加载已解压的扩展程序`并将其指向文件夹中的`build`子文件夹。
+6. 现在您应该可以看到菜单栏上显示的图标。
+7. 访问https://www.douban.com 并单击该图标。
+8. 如果您对Chrome上安装此扩展程序有任何疑问，可以通过https://github.com/lianliu/douban-extension/issues 提交问题，或者访问https://www.douban.com/people/John_316/。我非常乐意提供帮助。
 
-## Issues/Bugs/Reports?
-* https://github.com/lianliu/douban-extension/issues
+# 发现问题？
+* 请在这里告诉我，https://github.com/lianliu/douban-extension/issues。谢谢！
 
-## Changelog
-`02/18/2019`
-* UI improvement: don't allow duplicated word: will show a warning text instead.
+# 更新日志
+`2019年2月18日`
+* UI改进：不允许重复屏蔽词：将显示警告文本。
 
-`02/15/2019`
-* Can add/remove muted words.
-* Can mute your timeline based on your word bank.
+`2019年2月15日`
+* 可以添加/删除屏蔽词。
+* 可以根据您的屏蔽词库屏蔽您广播时间线上带有该屏蔽词的广播。
 
-## TODOS
-1. Restore content after deleting muted word(now need to refresh)
-2. Better UI for interaction
-3. Add Tests (I hate writing tests but they're important)
-4. Add Icon(so that it can be published to the store)
-5. Support i18n
-6. Add Options Page
-7. Publish to Chrome Web Store
+# 声明
+此扩展程序不提供任何明示或暗示的保证。使用风险由您自己承担。
 
-## Disclaimer
-There is no warranty, expressed or implied, associated with this extension. Use at your own risk.
-
-## License
-[douban-extension](https://github.com/lianliu/douban-extension) are released under [MIT license](https://github.com/lianliu/douban-extension/blob/master/LICENSE) . Copyright (c) [22](https://www.douban.com/people/John_316/).
+# 执照
+douban-extension在MIT许可下发布。版权所有（c）[22](https://www.douban.com/people/John_316/)。
