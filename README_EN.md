@@ -4,7 +4,7 @@ A Douban extension that helps you mute tweets based on your selected muted word 
 ## Installation
 Before you start, make sure that you are using a Chrome browser. This is an extension currently only supporting Chrome browser.
 
-1. Go to `https://github.com/lianliu/douban-extension`.
+1. Go to https://github.com/lianliu/douban-extension .
 2. Click on a green button called 'Clone or download' on the right of the page, right below the overall summary section.
 3. Click on Download ZIP to your local machine and unzip it.
 4. Once step 3 is done, go to `chrome://extensions`, and turn on Developer mode.

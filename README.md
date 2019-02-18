@@ -6,14 +6,14 @@
 ## 安装
 在开始之前，请确保您使用的是Chrome浏览器。目前仅支持Chrome浏览器。
 
-1. 转到https://github.com/lianliu/douban-extension。
+1. 转到https://github.com/lianliu/douban-extension 。
 2. 单击页面右侧写着“Clone or download”的绿色按钮。
 3. 单击“Download ZIP”并解压缩。
 4. 完成第3步后，转到Chrome地址栏输入`chrome：// extensions`（并回车），然后开启`开发者模式`。
 5. 单击`加载已解压的扩展程序`并将其指向文件夹中的`build`子文件夹。
 6. 现在您应该可以看到菜单栏上显示的图标。
 7. 访问https://www.douban.com 并单击该图标。
-8. 如果您对Chrome上安装此扩展程序有任何疑问，可以通过https://github.com/lianliu/douban-extension/issues 提交问题，或者访问https://www.douban.com/people/John_316/。我非常乐意提供帮助。
+8. 如果您对Chrome上安装此扩展程序有任何疑问，可以通过https://github.com/lianliu/douban-extension/issues 提交问题，或者访问https://www.douban.com/people/John_316/ 。我非常乐意提供帮助。
 
 ## 发现问题？
 * 请在这里告诉我，https://github.com/lianliu/douban-extension/issues。谢谢！
