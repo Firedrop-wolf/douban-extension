@@ -14,6 +14,7 @@ class Main extends React.Component {
       this.state = {
         inputValue: '',
         mutedWords: [],
+        warningText: '',
     };
   }
 
@@ -40,13 +41,18 @@ class Main extends React.Component {
   }
 
   addMutedWord = (word) => {
-    const wordList = [...this.state.mutedWords, word];
-    editMutedWords(wordList, (wordList) => {
-      hideStatus(wordList);
-      this.setState({ mutedWords: wordList, inputValue: ''});
+    const oldWordList = this.state.mutedWords;
+    if (!oldWordList.includes(word)) {
+      const wordList = [...oldWordList, word];
+      editMutedWords(wordList, (wordList) => {
+        hideStatus(wordList);
+        this.setState({ mutedWords: wordList, inputValue: ''});
 
-      console.log(`${word} is saved to your muted word bank.`);
-    });
+        console.log(`${word} is saved to your muted word bank.`);
+      });
+    } else {
+      this.setState({ warningText: `${word} has existed in your muted word bank.`});
+    }
   }
 
   deleteMutedWord = (wordToDelete) => {
@@ -84,6 +90,7 @@ class Main extends React.Component {
                   inputValue={this.state.inputValue}
                   mutedWords={this.state.mutedWords}
                   renderMutedWordList={this.renderMutedWordList}
+                  warningText={this.state.warningText}
                 />
               </div>
             )

@@ -5,7 +5,8 @@ export default ({
   handleEnter,
   inputValue,
   mutedWords,
-  renderMutedWordList
+  renderMutedWordList,
+  warningText
 }) => {
   return (
     <div className={'muted-word'}>
@@ -16,6 +17,10 @@ export default ({
         onKeyPress={handleEnter}
         onChange={handleChange}
       />
+      { warningText? 
+        (<small className={'muted-word__warning'}>{warningText}</small>):
+        null
+      }
       <ul className={'muted-word__list'}>
         {renderMutedWordList(mutedWords)}
       </ul>
