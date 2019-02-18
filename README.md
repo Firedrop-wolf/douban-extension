@@ -16,7 +16,7 @@
 8. 如果您对Chrome上安装此扩展程序有任何疑问，可以通过https://github.com/lianliu/douban-extension/issues 提交问题，或者访问https://www.douban.com/people/John_316/ 。我非常乐意提供帮助。
 
 ## 发现问题？
-* 请在这里告诉我，https://github.com/lianliu/douban-extension/issues。谢谢！
+* 请在这里告诉我，https://github.com/lianliu/douban-extension/issues 。谢谢！
 
 ## 更新日志
 `2019年2月18日`
