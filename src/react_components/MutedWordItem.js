@@ -1,6 +1,7 @@
 import React from 'react';
+import { Trans } from 'react-i18next';
 
-export default ({word, deleteMutedWord }) => {
+export default ({ word, deleteMutedWord }) => {
   return (
     <li className={'muted-word__word'}>
       <p>{word}</p>
@@ -8,7 +9,7 @@ export default ({word, deleteMutedWord }) => {
         className={'muted-word__button'}
         onClick={() => deleteMutedWord(word)}
       >
-        Delete
+        <Trans>Delete Button</Trans>
       </button>
     </li>
   );

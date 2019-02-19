@@ -1,6 +1,7 @@
 /*global chrome*/
 import React from 'react';
 import Frame, { FrameContextConsumer }from 'react-frame-component';
+import { Trans } from 'react-i18next';
 
 import { MutedWord, MutedWordItem } from './';
 
@@ -83,7 +84,9 @@ class Main extends React.Component {
           // Render Children
             return (
               <div className={'douban-extension'}>
-                <h3>豆瓣屏蔽插件</h3>
+                <h3>
+                  <Trans>Extension Name</Trans>
+                </h3>
                 <MutedWord
                   handleChange={this.handleChange}
                   handleEnter={this.handleEnter}

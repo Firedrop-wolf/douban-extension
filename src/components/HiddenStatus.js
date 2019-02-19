@@ -1,7 +1,9 @@
+import i18n from '../i18n/i18n';
+
 const statusComponent = document.createElement('div');
 const passage = document.createElement('p');
 
-passage.innerText = 'This content is hidden based on your muted words.';
+passage.innerText = i18n.t('Hidden Status Content');
 
 statusComponent.classList.add("new-status", "status-wrapper", "hidden-status");
 statusComponent.appendChild(passage);

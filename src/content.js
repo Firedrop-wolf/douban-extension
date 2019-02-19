@@ -7,6 +7,8 @@ import { Main } from './react_components';
 import { getMutedWords } from './services';
 import { toggleDisplay, hideStatus } from './utils';
 
+import './i18n/i18n';
+
 const app = document.createElement('div');
 app.id = "douban-extension-root";
 
