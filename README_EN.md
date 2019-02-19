@@ -32,6 +32,7 @@ Follow steps to ramp up your development.
 ## Changelog
 `02/18/2019`
 * UI improvement: don't allow duplicated word: will show a warning text instead.
+* Support English and Simplified Chinese.
 
 `02/15/2019`
 * Can add/remove muted words.
